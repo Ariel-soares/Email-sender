@@ -11,6 +11,8 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import java.io.File;
 
+//Serviço funcionando perfeitamente
+
 @Service
 public class EmailSenderService {
     @Autowired
