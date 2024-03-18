@@ -20,7 +20,7 @@ public class SpringEmailDemoApplication {
 	public void triggerMail() throws MessagingException {
 		senderService.sendSimpleEmail("antoniohenriquep@outlook.com",
 				"Email automático mandado por rotina",
-				"A partir de hoje você receberá um email diário lhe lembrando do quão fuleiro é");
+				"A partir de hoje você receberá um email diário automaticamente");
 
 	}
 }
